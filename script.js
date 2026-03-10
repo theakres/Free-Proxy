@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("themeIcon").textContent = isLight ? "dark_mode" : "light_mode";
   localStorage.setItem("theme", isLight ? "light" : "dark");
  };
+ 
  if(localStorage.getItem("theme") === "light") {
   document.body.classList.add("light-mode");
   document.getElementById("themeIcon").textContent = "dark_mode";
@@ -59,20 +60,24 @@ document.addEventListener("DOMContentLoaded", () => {
    const res = await fetch(`countries/${file}.txt`);
    const text = await res.text();
    
-   const lines = text.split("\n").filter(l => l.includes("server="));
+   let lines = text.split("\n").filter(l => l.includes("server="));
    
-   proxyGrid.innerHTML = lines.length ? "" : "В этом файле нет прокси.";
+   lines = [...new Set(lines)];
+
+   proxyGrid.innerHTML = lines.length ? "" : "В этом списке нет прокси.";
 
    lines.forEach(line => {
     const cleanLine = line.trim();
-    const tgLink = cleanLine.replace(/^https:\/\/t\.me\/proxy\?/, "tg://proxy?");
     
-    const params = new URLSearchParams(tgLink.split('?')[1]);
-    const ip = params.get("server") || "Unknown";
-    const port = params.get("port") || "";
+    let ip = "Unknown", port = "";
+    if (cleanLine.includes('?')) {
+        const params = new URLSearchParams(cleanLine.split('?')[1]);
+        ip = params.get("server") || "Unknown";
+        port = params.get("port") || "";
+    }
 
     const card = document.createElement("a");
-    card.href = tgLink;
+    card.href = cleanLine;
     card.className = "proxy-card";
     card.innerHTML = `
      <div>

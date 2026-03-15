@@ -1,1 +1,11 @@
-tg://proxy?server=185.117.0.248&port=443&secret=eed451f808fd60ed2c45f11d38fdbc87c57961686f6f2e636f6d
+tg://proxy?server=72.56.102.104&port=443&secret=eed8223b129a62eafcdafc08c4513e6d0531632e7275
+tg://proxy?server=tg-proxy-nl.deltavpn.me&port=444&secret=ed7db22e961bc366ae25ce9b5060b98c
+tg://proxy?server=72.56.78.99&port=443&secret=eea1b303bada01b81e3f48d38511e95e9031632e7275
+tg://proxy?server=tg-proxy2.greentg.su&port=443&secret=f3509471d3aa6dcbc58b8322a6f90518
+tg://proxy?server=balance-ee.elix.rip&port=443&secret=77e616b89815f53b5a2d2d4299fc7ede
+tg://proxy?server=ams1.tlgfast.com&port=443&secret=083fe0c452e2407d835537872f097c54
+tg://proxy?server=168.222.252.215&port=443&secret=365a496ecc22d30370534b75ecc02630
+tg://proxy?server=mt.tematika.org&port=443&secret=1d8976ce8bacd795a21036fb05c4addc
+tg://proxy?server=185.125.202.51&port=443&secret=b7b534acc1aa5a6ae8c812e0d8333bfe
+tg://proxy?server=85.155.96.36&port=443&secret=487b79ac7493db465c8f124fcc70aade
+tg://proxy?server=43.250.53.22&port=443&secret=4fc30d1222972a04067e805a5134cb57

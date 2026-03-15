@@ -1,3 +1,11 @@
-tg://proxy?server=92.246.139.33&port=8888&secret=eeb94b8e35905f710e8ac96be3d451931a706574726f766963682e7275
+tg://proxy?server=free-mtproto.anti-zapret.com&port=63771&secret=39a36277e8fe6939b422875d1dd8765c
+tg://proxy?server=telegram.mtpproxy.ltvpn.org&port=443&secret=9e9458e4b939ce0894bc146049e64b58
+tg://proxy?server=144.31.136.20&port=443&secret=eee353be048a0a57e723bc04ff21924fe9766b2e6363
+tg://proxy?server=tg-proxy-de.deltavpn.me&port=444&secret=dc87d3c46c48e181d7352737b28b3113
+tg://proxy?server=proxy2.strettenvpn.com&port=443&secret=dfe878ca3ef58feb5df4243e5fcd3da0
 tg://proxy?server=195.62.49.101&port=8443&secret=dddd64470bf06ad524161691b81e95b7a2
+tg://proxy?server=116.203.62.79&port=6443&secret=e4b7e196fe87824d5367e49539d55269
+tg://proxy?server=77.239.112.81&port=443&secret=de9c430f1164f4eb2b2742dcab429252
 tg://proxy?server=150.241.99.25&port=443&secret=3a32e1f73a8b23eac10336e96f004e04
+tg://proxy?server=vtslystore.ru&port=443&secret=096b8b7bfd4af6d7e67ab3cb24e9542d
+tg://proxy?server=213.176.77.28&port=443&secret=8d76c6c7b6958e2a93e04c6ef53aed80
